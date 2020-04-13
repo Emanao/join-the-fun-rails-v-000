@@ -5,6 +5,6 @@ require File.expand_path('../config/application', __FILE__)
 
 JoinTheFunRails::Application.load_tasks
 
-task :console => :environment
+task :console do
   Pry.start
 end
